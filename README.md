@@ -247,7 +247,7 @@ Documents matching query terms are ranked using a combination of **Term Frequenc
 1. **Log-Normalized Term Frequency:**
    Diminishes the dominance of repetitive keywords within long documents:
 
-   $$\text{TF}(t, d) = 1.0 + \ln(\text{raw\_TF}(t, d))$$
+   $$\text{TF}(t, d) = 1.0 + \ln(\text{rawTF}(t, d))$$
 
 2. **Smoothed Inverse Document Frequency:**
    Penalizes words that appear across all documents while rewarding discriminative terms:
